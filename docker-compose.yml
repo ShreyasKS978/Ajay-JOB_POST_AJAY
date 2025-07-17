@@ -36,14 +36,14 @@ services:
     build: ./Job_Posts
     container_name: job-posts-ui
     ports:
-      - "8176:80"
+      - "8188:80"
     restart: always
 
   job-form:
     build: ./Job_form
     container_name: job-form-ui
     ports:
-      - "8177:80"
+      - "8189:80"
     restart: always
 
 volumes:
